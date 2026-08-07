@@ -1,0 +1,45 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aya chrome star security logo">
+  <defs>
+    <!-- metallic chrome fill: cool grey to bright highlight to deeper shadow -->
+    <linearGradient id="chrome" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%"  stop-color="#F4F5F7"/>
+      <stop offset="28%" stop-color="#C7CCD3"/>
+      <stop offset="46%" stop-color="#FFFFFF"/>
+      <stop offset="62%" stop-color="#9BA2AC"/>
+      <stop offset="100%" stop-color="#5A6068"/>
+    </linearGradient>
+    <!-- bright inflated rim, like the tube-highlight edge in the reference -->
+    <linearGradient id="rim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#AEB4BC"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="glossSpot" cx="38%" cy="32%" r="45%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="scanFade" cx="50%" cy="50%" r="50%">
+      <stop offset="78%" stop-color="#4DE8E0" stop-opacity="0"/>
+      <stop offset="92%" stop-color="#4DE8E0" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#4DE8E0" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- mask: star shape, minus a keyhole punched out at its core -->
+    <mask id="starMask">
+      <path d="M 100.00,12.00 L 119.98,72.49 L 183.69,72.81 L 132.34,110.51 L 151.73,171.19 L 100.00,134.00 L 48.27,171.19 L 67.66,110.51 L 16.31,72.81 L 80.02,72.49 Z"
+            fill="#FFFFFF"/>
+      <circle cx="100" cy="88" r="11" fill="#000000"/>
+      <path d="M 91,94 L 109,94 L 100,120 Z" fill="#000000"/>
+    </mask>
+  </defs>
+
+  <!-- faint cyan scan ring behind the star: the personalizing signal -->
+  <circle cx="100" cy="100" r="94" fill="url(#scanFade)"/>
+
+  <g mask="url(#starMask)">
+    <path d="M 100.00,12.00 L 119.98,72.49 L 183.69,72.81 L 132.34,110.51 L 151.73,171.19 L 100.00,134.00 L 48.27,171.19 L 67.66,110.51 L 16.31,72.81 L 80.02,72.49 Z"
+          fill="url(#chrome)" stroke="url(#rim)" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 100.00,12.00 L 119.98,72.49 L 183.69,72.81 L 132.34,110.51 L 151.73,171.19 L 100.00,134.00 L 48.27,171.19 L 67.66,110.51 L 16.31,72.81 L 80.02,72.49 Z"
+          fill="url(#glossSpot)"/>
+  </g>
+</svg>

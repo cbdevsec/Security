@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chrome star">
+  <defs>
+    <linearGradient id="chromeFill" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%"  stop-color="#F7F8FA"/>
+      <stop offset="24%" stop-color="#D3D7DC"/>
+      <stop offset="42%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#A7ADB5"/>
+      <stop offset="80%" stop-color="#7D838C"/>
+      <stop offset="100%" stop-color="#565B62"/>
+    </linearGradient>
+    <linearGradient id="tubeEdge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"  stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#8B9098"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#82878F"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="36%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <path d="M 100.00,12.00 L 119.98,72.49 L 183.69,72.81 L 132.34,110.51 L 151.73,171.19 L 100.00,134.00 L 48.27,171.19 L 67.66,110.51 L 16.31,72.81 L 80.02,72.49 Z"
+        fill="url(#chromeFill)"
+        stroke="url(#tubeEdge)"
+        stroke-width="7"
+        stroke-linejoin="round"/>
+
+  <path d="M 100.00,12.00 L 119.98,72.49 L 183.69,72.81 L 132.34,110.51 L 151.73,171.19 L 100.00,134.00 L 48.27,171.19 L 67.66,110.51 L 16.31,72.81 L 80.02,72.49 Z"
+        fill="url(#shine)"/>
+</svg>

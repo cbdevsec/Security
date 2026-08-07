@@ -1,0 +1,41 @@
+<svg viewBox="0 0 520 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aya logo lockup">
+  <defs>
+    <linearGradient id="sparkGrad2" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#F3EFFA"/>
+      <stop offset="55%" stop-color="#C9B8E0"/>
+      <stop offset="100%" stop-color="#4DE8E0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- spark mark, scaled down, left-aligned -->
+  <g transform="translate(0,-5) scale(0.62)">
+    <path
+      d="M105,10
+         L116.5,82.3
+         L204.6,71
+         L120.9,111.8
+         L141.1,161.6
+         L100,135
+         L47.1,177.8
+         L76.2,112.7
+         L42.9,86.5
+         L88.2,88.8
+         Z"
+      fill="url(#sparkGrad2)"
+    />
+  </g>
+
+  <!-- wordmark -->
+  <text x="150" y="105"
+        font-family="'Space Grotesk','Segoe UI',sans-serif"
+        font-size="72"
+        font-weight="600"
+        fill="#F3EFFA"
+        letter-spacing="-1">aya</text>
+
+  <!-- small companion sparkle, echoing the reference composition -->
+  <g fill="#4DE8E0">
+    <path d="M448,38 C450,48 452,50 462,52 C452,54 450,56 448,66 C446,56 444,54 434,52 C444,50 446,48 448,38 Z"/>
+    <path d="M472,28 C473,32 474,33 478,34 C474,35 473,36 472,40 C471,36 470,35 466,34 C470,33 471,32 472,28 Z"/>
+  </g>
+</svg>
