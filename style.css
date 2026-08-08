@@ -86,7 +86,7 @@ main, header, footer, .nav{ position:relative; z-index:2; }
 }
 
 .brand{ display:flex; align-items:center; gap:10px; font-weight:700; font-size:1.05rem; letter-spacing:0.02em; }
-.brand img{ width:45px; height:auto; }
+.brand img{ width:45px; height:45px; border-radius:7px; }
 .brand .accent{ color:var(--safelight); }
 
 .nav-links{ display:flex; gap:clamp(16px,3vw,32px); font-family:var(--font-mono); font-size:0.76rem; letter-spacing:0.06em; text-transform:uppercase; }
@@ -154,8 +154,8 @@ h2.section-title{
   display:flex; align-items:center; gap:10px;
   text-transform:uppercase;
 }
-.hero-kicker::before{
-  content:'✦'; font-size:1.2rem;
+.hero-kicker .dot{
+  width:7px; height:7px; border-radius:50%; background:var(--safelight);
   animation:pulse 1.8s ease-in-out infinite;
 }
 @keyframes pulse{ 0%,100%{ opacity:1; } 50%{ opacity:0.25; } }
