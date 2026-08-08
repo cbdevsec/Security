@@ -154,8 +154,8 @@ h2.section-title{
   display:flex; align-items:center; gap:10px;
   text-transform:uppercase;
 }
-.hero-kicker .dot{
-  content:'✦'; font-size:1.2rem; background:var(--safelight);
+.hero-kicker::before{
+  content:'✦'; font-size:1.2rem;
   animation:pulse 1.8s ease-in-out infinite;
 }
 @keyframes pulse{ 0%,100%{ opacity:1; } 50%{ opacity:0.25; } }
