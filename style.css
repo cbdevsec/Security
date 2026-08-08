@@ -156,7 +156,7 @@ h2.section-title{
 }
 .hero-kicker::before{
   content:'✦';
-  font-size:0.8rem;
+  font-size:1.2rem;
   display:inline-block;
   animation:pulse 1.8s ease-in-out infinite;
 }
