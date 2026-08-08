@@ -6,8 +6,6 @@ tags: [ICAO, IATA, aviation, cybersecurity, framework analysis, summary]
 excerpt: "a short summary of the cybersecurity strategies in the Aviation sector"
 ---
 
-# ICAO & IATA Aviation Cybersecurity Frameworks: Summary
-
 ## Why This Matters
 
 Because of the Safety-of-life stakes. Aviation cybersecurity is a distinct and highly regulated domain, While most industries treat data breaches as data/financial risk, in Aviation such cyber incident can chain into a physical safety event: grounded flights, compromised ground systems, or in extreme scenarios, systems that affect the safe operation of aircraft.
