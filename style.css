@@ -155,7 +155,7 @@ h2.section-title{
   text-transform:uppercase;
 }
 .hero-kicker .dot{
-  width:7px; height:7px; border-radius:50%; background:var(--safelight);
+  content:'✦'; font-size:1.2rem; background:var(--safelight);
   animation:pulse 1.8s ease-in-out infinite;
 }
 @keyframes pulse{ 0%,100%{ opacity:1; } 50%{ opacity:0.25; } }
